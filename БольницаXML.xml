@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hospital>
+	<department title="Хирургия">
+		<ward number="100">
+			<patient id="001">
+				<name>Егор</name>
+				<surname>Егоров</surname>
+				<diagnosis>Аппендецит</diagnosis>
+			</patient>
+			<patient id="002">
+				<name>Максим</name>
+				<surname>Меньшиков</surname>
+				<diagnosis>Тромбоз вен</diagnosis>
+			</patient>
+		</ward>
+		<ward number="101">
+			<patient id="003">
+				<name>Павел</name>
+				<surname>Русинов</surname>
+				<diagnosis>Холицистит</diagnosis>
+			</patient>
+			<patient id="004">
+				<name>Константин</name>
+				<surname>Машков</surname>
+				<diagnosis>Грыжа</diagnosis>
+			</patient>
+		</ward>
+	</department>
+	<department id="Гинекология">
+		<ward number="200">
+			<patient id="011">
+				<name>Оксана</name>
+				<surname>Елькина</surname>
+				<diagnosis>Выкидыш на ранних сроках</diagnosis>
+			</patient>
+			<patient id="012">
+				<name>Зинаида</name>
+				<surname>Попова</surname>
+				<diagnosis>Миома матки</diagnosis>
+			</patient>
+		</ward>
+		<ward number="201">
+			<patient id="013">
+				<name>Мария</name>
+				<surname>Рогова</surname>
+				<diagnosis>Киста яичника</diagnosis>
+			</patient>
+			<patient id="014">
+				<name>Кристина</name>
+				<surname>Панфилова</surname>
+				<diagnosis>Киста влагалища</diagnosis>
+			</patient>
+		</ward>
+	</department>
+	<department id="Урология">
+		<ward number="300">
+			<patient id="021">
+				<name>Анатолий</name>
+				<surname>Козюлькин</surname>
+				<diagnosis>Баланопостит</diagnosis>
+			</patient>
+			<patient id="022">
+				<name>Никита</name>
+				<surname>Лобзев</surname>
+				<diagnosis>Везикулит</diagnosis>
+			</patient>
+		</ward>
+		<ward number="301">
+			<patient id="023">
+				<name>Мирослав</name>
+				<surname>Кашин</surname>
+				<diagnosis>Водянка яичника</diagnosis>
+			</patient>
+			<patient id="024">
+				<name>Григорий</name>
+				<surname>Масечкин</surname>
+				<diagnosis>Задержка мочеиспускания</diagnosis>
+			</patient>
+		</ward>
+	</department>
+	<department id="Травмотология">
+		<ward number="400">
+			<patient id="031">
+				<name>Мохова</name>
+				<surname>Анастасия</surname>
+				<diagnosis>Развыв правого рога мениска</diagnosis>
+			</patient>
+			<patient id="032">
+				<name>Мирослава</name>
+				<surname>Манашина</surname>
+				<diagnosis>Разрыв сухожилия четырёхглавой мышцы бедра</diagnosis>
+			</patient>
+		</ward>
+		<ward number="401">
+			<patient id="033">
+				<name>Александр</name>
+				<surname>Мочкин</surname>
+				<diagnosis>Открытый перелом ноги</diagnosis>
+			</patient>
+			<patient id="034">
+				<name>Фёдор</name>
+				<surname>Моглокин</surname>
+				<diagnosis>Протезирование рук</diagnosis>
+			</patient>
+		</ward>
+	</department>
+</hospital>

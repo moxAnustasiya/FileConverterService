@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db3b8fa7-6d03-4519-8f96-d4e7c39b742c" name="Changes" comment="Убрала ненужные классы">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JSON/Hospital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JSON/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JSON/Patients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Read/ReadJSON.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Save/SaveXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JSON/jsontoxml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JSON/jsontoxml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Save/SaveJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Save/SaveJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Save/SaveJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Save/SaveJson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/XML/xmltojson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/XML/xmltojson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Пациент.json" beforeDir="false" afterPath="$PROJECT_DIR$/Пациент.json" afterDir="false" />
-    </list>
+    <list default="true" id="db3b8fa7-6d03-4519-8f96-d4e7c39b742c" name="Changes" comment="Создала класс считывание из json и сохранение в xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,22 +32,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Антон/Desktop/ФИб5/Практика/Задание 2/FileConverterService/json-simple-1.1.1.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Антон/Desktop/ФИб5/Практика/Задание 2/FileConverterService/json-simple-1.1.1.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Антон\Desktop\ФИб5\Практика\Задание 2\FileConverterService\src\main\java\XML" />
@@ -167,7 +154,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665074940443</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Создала класс для преобразования json в xml">
+      <created>1665083366230</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665083366230</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Создала классы для хранения информации из файла json">
+      <created>1665083469410</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665083469410</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Создала класс считывание из json и сохранение в xml">
+      <created>1665083511155</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665083511155</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +202,9 @@
     <MESSAGE value="Полученный json файл и редакция в классах" />
     <MESSAGE value="Добавила ввод имени файла" />
     <MESSAGE value="Убрала ненужные классы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Убрала ненужные классы" />
+    <MESSAGE value="Создала класс для преобразования json в xml" />
+    <MESSAGE value="Создала классы для хранения информации из файла json" />
+    <MESSAGE value="Создала класс считывание из json и сохранение в xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создала класс считывание из json и сохранение в xml" />
   </component>
 </project>

@@ -25,6 +25,7 @@ public class SaveJson
                 {
                     JSONObject jsonPatient = new JSONObject();
                     JSONObject patient = new JSONObject();
+                    patient.put("id",hosp.get(i,j,y).getId());
                     patient.put("name",hosp.get(i,j,y).getName());
                     patient.put("surname",hosp.get(i,j,y).getSurname());
                     patient.put("diagnosis",hosp.get(i,j,y).getDiagnosis());

@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="db3b8fa7-6d03-4519-8f96-d4e7c39b742c" name="Changes" comment="Добавила xml документ">
-      <change afterPath="$PROJECT_DIR$/src/XML/Hospital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xmltojson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/XML/xmltojson.java" afterDir="false" />
+    <list default="true" id="db3b8fa7-6d03-4519-8f96-d4e7c39b742c" name="Changes" comment="Создание вспомогательных классов для хранения xml">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JSON/jsontoxml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Read/ReadXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Save/SaveJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/XML/Departments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/XML/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/XML/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/XML/Wards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/XML/xmltojson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileConverterService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FileConverterService.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/XML/Hospital.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/XML/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/XML/Wards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/XML/xmltojson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/БольницаXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/БольницаXML.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +46,37 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2FcvIEzS5B6Vn0zct2TMqdQwNal" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Антон/Desktop/ФИб5/Практика/Задание 2/FileConverterService/json-simple-1.1.1.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Антон\Desktop\ФИб5\Практика\Задание 2\FileConverterService\src\main\java\XML" />
+      <recent name="C:\Users\Антон\Desktop\ФИб5\Практика\Задание 2\FileConverterService\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664866735986</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Создание вспомогательных классов для хранения xml">
+      <created>1664867301994</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664867301994</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,6 +132,18 @@
     <MESSAGE value="Сделала проект!" />
     <MESSAGE value="Создала класс!" />
     <MESSAGE value="Добавила xml документ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавила xml документ" />
+    <MESSAGE value="Создание вспомогательных классов для хранения xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание вспомогательных классов для хранения xml" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Read/ReadXML.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

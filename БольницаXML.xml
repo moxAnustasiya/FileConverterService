@@ -26,7 +26,7 @@
 			</patient>
 		</ward>
 	</department>
-	<department id="Гинекология">
+	<department title="Гинекология">
 		<ward number="200">
 			<patient id="011">
 				<name>Оксана</name>
@@ -52,7 +52,7 @@
 			</patient>
 		</ward>
 	</department>
-	<department id="Урология">
+	<department title="Урология">
 		<ward number="300">
 			<patient id="021">
 				<name>Анатолий</name>
@@ -78,7 +78,7 @@
 			</patient>
 		</ward>
 	</department>
-	<department id="Травмотология">
+	<department title="Травмотология">
 		<ward number="400">
 			<patient id="031">
 				<name>Мохова</name>

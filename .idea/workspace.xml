@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db3b8fa7-6d03-4519-8f96-d4e7c39b742c" name="Changes" comment="Полученный json файл и редакция в классах" />
+    <list default="true" id="db3b8fa7-6d03-4519-8f96-d4e7c39b742c" name="Changes" comment="Убрала ненужные классы">
+      <change afterPath="$PROJECT_DIR$/src/main/java/JSON/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JSON/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JSON/Patients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Read/ReadJSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Save/SaveXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JSON/jsontoxml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JSON/jsontoxml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Save/SaveJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Save/SaveJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Save/SaveJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Save/SaveJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/XML/xmltojson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/XML/xmltojson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Пациент.json" beforeDir="false" afterPath="$PROJECT_DIR$/Пациент.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +146,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665074520622</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Полученный json файл и редакция в классах">
+      <created>1665074610772</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665074610772</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Добавила ввод имени файла">
+      <created>1665074811304</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665074811304</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Убрала ненужные классы">
+      <created>1665074940443</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665074940443</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,17 +192,8 @@
     <MESSAGE value="Создание main для проверки работы программы" />
     <MESSAGE value="Создание библиотеки для конвертации из json в xml" />
     <MESSAGE value="Полученный json файл и редакция в классах" />
-    <option name="LAST_COMMIT_MESSAGE" value="Полученный json файл и редакция в классах" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Read/ReadXML.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Добавила ввод имени файла" />
+    <MESSAGE value="Убрала ненужные классы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Убрала ненужные классы" />
   </component>
 </project>

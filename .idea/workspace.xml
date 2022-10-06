@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db3b8fa7-6d03-4519-8f96-d4e7c39b742c" name="Changes" comment="Создание вспомогательных классов для хранения xml">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JSON/jsontoxml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Read/ReadXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Save/SaveJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XML/Departments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XML/Hospital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XML/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XML/Wards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XML/xmltojson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileConverterService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FileConverterService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/XML/Hospital.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/XML/Patient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/XML/Wards.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/XML/xmltojson.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/БольницаXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/БольницаXML.xml" afterDir="false" />
-    </list>
+    <list default="true" id="db3b8fa7-6d03-4519-8f96-d4e7c39b742c" name="Changes" comment="Полученный json файл и редакция в классах" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +91,49 @@
       <option name="project" value="LOCAL" />
       <updated>1664867301994</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Заполнение классов">
+      <created>1665074223572</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665074223572</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавление библиотеки для работы с JSON файлами">
+      <created>1665074309802</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665074309802</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Распределение подзадач по разным классам: считывание вместе с переработкой из xml и сохранение файла в json">
+      <created>1665074400796</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665074400796</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Создание main для проверки работы программы">
+      <created>1665074437291</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665074437291</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Создание библиотеки для конвертации из json в xml">
+      <created>1665074473299</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665074473299</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Полученный json файл и редакция в классах">
+      <created>1665074520622</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665074520622</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,7 +152,13 @@
     <MESSAGE value="Создала класс!" />
     <MESSAGE value="Добавила xml документ" />
     <MESSAGE value="Создание вспомогательных классов для хранения xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание вспомогательных классов для хранения xml" />
+    <MESSAGE value="Заполнение классов" />
+    <MESSAGE value="Добавление библиотеки для работы с JSON файлами" />
+    <MESSAGE value="Распределение подзадач по разным классам: считывание вместе с переработкой из xml и сохранение файла в json" />
+    <MESSAGE value="Создание main для проверки работы программы" />
+    <MESSAGE value="Создание библиотеки для конвертации из json в xml" />
+    <MESSAGE value="Полученный json файл и редакция в классах" />
+    <option name="LAST_COMMIT_MESSAGE" value="Полученный json файл и редакция в классах" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
